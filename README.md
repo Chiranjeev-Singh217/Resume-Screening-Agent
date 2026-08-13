@@ -27,3 +27,44 @@ Optimize for ATS: Understand how your resume fares in automated screenings.
 Get AI Insights: Receive professional-quality feedback without hiring a consultant.
 Improve Success Rate: Apply data-driven improvements to increase your chances of getting shortlisted.
 This project is perfect for job seekers who want to make sure their resumes are tailored to specific roles, career coaches looking for efficient feedback tools, or developers seeking to explore AI’s capabilities in HR-tech workflows.
+
+Installation Steps
+Follow these steps to set up and run the AI Resume Analyzer locally:
+
+Make sure you have Python and Git installed.
+
+1️⃣ Clone the Repository
+https://github.com/Chiranjeev-Singh217/Resume-Screening-Agent.git
+
+FolderName  :- Resume Screening Agent
+
+2️⃣ Set Up a Virtual Environment
+
+python -m venv myenv
+
+./myenv/Scripts/activate
+
+3️⃣ Install Dependencies
+Make sure you have pip updated, then install all required packages:
+
+pip install -r requirements.txt
+
+4️⃣ Set Up Your .env File
+
+Create a .env file in the root directory and add your Groq API key from Groq
+
+GROQ_API_KEY=your_groq_api_key_here
+
+5️⃣ Run the Streamlit App
+
+Launch the app locally using Streamlit:
+
+streamlit run main.py
+
+6️⃣ Open in Browser
+
+Once the app starts, it will automatically open in your default web browser at:
+
+http://localhost:8501
+
+✅ Now you’re all set! Upload a resume, paste a job description, and let the AI analyze your resume for job-fit and provide suggestions.
