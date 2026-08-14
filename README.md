@@ -59,7 +59,7 @@ GROQ_API_KEY=your_groq_api_key_here
 
 Launch the app locally using Streamlit:
 
-streamlit run main.py
+streamlit run parser.py
 
 6️⃣ Open in Browser
 
