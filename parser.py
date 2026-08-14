@@ -28,7 +28,7 @@ if "job_desc" not in st.session_state:
 
 
 # Title of the Project, change according to your style
-st.title("AI Resume Analyzer 📝")
+st.title("AI Resume Screening Agent 📝")
 
 
 
